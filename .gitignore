@@ -1,0 +1,48 @@
+# 忽略 Node.js 和 npm 生成的文件
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# 忽略 Vite 生成的构建文件
+dist/
+build/
+
+# 忽略 React 开发服务器生成的文件
+.cache/
+*.cache
+
+# 忽略环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# 忽略日志文件
+*.log
+
+# 忽略测试文件生成的覆盖率报告
+coverage/
+
+# 忽略 IDE 或编辑器生成的临时文件
+*.iml
+.idea/
+.vscode/
+*.code-workspace
+*.sublime-workspace
+*.sublime-project
+
+# 忽略本地配置文件
+babel.config.js
+jest.config.js
+tsconfig.json
+tslint.json
+.eslintrc.js
+.prettierignore
+.prettierrc.js
+
+# 忽略其他临时文件
+.DS_Store
+Thumbs.db
+
