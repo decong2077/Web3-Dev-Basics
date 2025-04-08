@@ -1,0 +1,36 @@
+.nft-list {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.nft-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.nft-item {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  padding: 1rem;
+  transition: transform 0.2s;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.nft-item:hover {
+  transform: translateY(-5px);
+}
+
+.nft-item h3 {
+  margin: 0 0 0.5rem;
+  color: #646cff;
+}
+
+.nft-item p {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  word-break: break-all;
+}
