@@ -19,7 +19,7 @@ export const BOREDAPES_ABI = [
 // Jouleverse网络配置
 export const JOULEVERSE_NETWORK = {
   chainId: '0xe52',
-  chainName: 'Jouleverse',
+  chainName: 'Jouleverse Mainnet',
   rpcUrls: ['https://rpc.jnsdao.com:8503'],
   nativeCurrency: {
     name: 'Joule',
